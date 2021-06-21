@@ -1,2 +1,2 @@
 # Notebooks
-A brief recompilation about programming, machine learning, and computer vision
+Recompilation of Scripts and notes about programming, machine learning, and computer vision.
