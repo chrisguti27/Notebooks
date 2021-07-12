@@ -1,6 +1,7 @@
 # Regresion de datos
 Antes de hablar de regresión, es importante considerar los tipos de variables que nos podemos encontrar dentro de los diferentes datasets.
 
+## Tipos de Variables
 ![Tipo de variables](https://user-images.githubusercontent.com/57780789/125316421-0498f300-e330-11eb-90fe-387ae4060c17.png)
 
 ## Regresión
