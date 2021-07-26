@@ -19,6 +19,6 @@ Antes de aplicar el modelo de regresión lineal se debe comprobar que el dataset
 * Independencia: Que los errores en la medición de las variables explicativas sean independientes entre sí.
 * Homocedasticidad: Que los errores tengan varianza constante.
 * Normalidad: Que las variables sigan la Ley Normal.
-* No colinealidad: Que las variables independientes no estén correlacionadas entre ellas.
+* No colinealidad (Ausencia de multicolinealidad): Que las variables independientes no estén correlacionadas entre ellas.
 
 *Para más detalle: http://doi.org/10.1344/reire2019.12.222704
