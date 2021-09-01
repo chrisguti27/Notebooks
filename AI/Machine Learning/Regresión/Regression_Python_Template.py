@@ -31,15 +31,15 @@ X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)
 """
 
-"""
+
 #-------------AJUSTAR MODELO------------------
 #*********obtener el modelo de regresión
-#regression: 
+#regression =  
 
 #----------------PREDICCIÓN-------------------
 #regression.predict([[6.5]]) # para regresion lineal simple y multiple
 regression.predict(Poly_reg.fit_transform([[6.5]]))
-""""
+
 #plot
 X_grid = np.arange(min(X),max(X),0.1)# para evitar que el gráfico salga a trozos
 X_grid = X_grid.reshape(len(X_grid),1)
