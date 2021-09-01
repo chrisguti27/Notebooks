@@ -31,19 +31,21 @@ X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)
 """
 
-#Ajustar con el dataset
+"""
+#-------------AJUSTAR MODELO------------------
 #*********obtener el modelo de regresión
+#regression: 
 
-#prediccion
-#Lin_reg.predict([[6.5]]) # para regresion lineal simple y multiple
-lin_reg_2.predict(Poly_reg.fit_transform([[6.5]]))
-
+#----------------PREDICCIÓN-------------------
+#regression.predict([[6.5]]) # para regresion lineal simple y multiple
+regression.predict(Poly_reg.fit_transform([[6.5]]))
+""""
 #plot
 X_grid = np.arange(min(X),max(X),0.1)# para evitar que el gráfico salga a trozos
 X_grid = X_grid.reshape(len(X_grid),1)
 X_1 = Poly_reg.fit_transform(X_grid) #los X que se quieren predecir en el plot
 plt.scatter(X, Y, color = "red")
-plt.plot(X_grid, lin_reg_2.predict(X_1), color = "blue")
+plt.plot(X_grid, regression.predict(X_1), color = "blue")
 plt.title("Modelo de Regresión Polinómico n4")
 plt.xlabel("Posición del empleado")
 plt.ylabel("Sueldo (en $)")
