@@ -8,7 +8,7 @@ dataset = dataset [,2:3]
 #--------------------Ajustar modelo SVR --------------------
 
 #*************crear variable de regresión***********
-install.packages("e1071")
+#install.packages("e1071")
 library(e1071)
 regression = svm(formula = Salary ~ ., 
                  data = dataset,
